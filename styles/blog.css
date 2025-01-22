@@ -3,9 +3,12 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style : normal;
+    background-color: #F7F7F7;
   }
 
+
 /* Heading Part */
+
 
 .first-bg{
     margin: auto;
@@ -73,6 +76,9 @@
     font-size: 56px;
     font-weight: bold;
 }
+.em{
+    margin-top: 65px;
+}
 .reg{
     font-size: 20px;
     font-weight: 400;
@@ -88,3 +94,67 @@
     padding: 10px;
     background-color: black;
 }
+
+
+/* Main Part */
+/* Standard Curriculum */
+
+
+.third-bg{
+    background-color: #F7F7F7;
+    margin-top: 10px;
+    padding: 10px 180px;
+    background-image: url(../assets/bg.png);
+}
+.stn{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+}
+.class-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.class-1{
+    background: linear-gradient(#DEF5FF 10% , white 50%);
+    padding: 70px 30px;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid #DEF5FF;
+}
+.class-2{
+    background: linear-gradient(#FFF4DC 10%, white 50%);
+    padding: 70px 30px;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid #FFF4dc;
+}
+.class-3{
+    background: linear-gradient(#F2E8FF 10%, white 50%);
+    padding: 70px 30px;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid #F2E8FF
+}
+.btn-circle{
+    text-align: center;
+}
+.ar-1{
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 100%;
+}
+.size{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* Our Stories */
